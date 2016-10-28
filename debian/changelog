@@ -1,3 +1,9 @@
+wireguard (0.0.20161025-1ubuntu1) experimental; urgency=medium
+
+  * Hard disable the AVX2 extenation in cryto. Crashes on some systems
+
+ -- Egbert Verhage <egbert@mgmt.eggieservers.nl>  Fri, 28 Oct 2016 17:05:05 +0200
+
 wireguard (0.0.20161025-1) experimental; urgency=medium
 
   * First PPA package.
