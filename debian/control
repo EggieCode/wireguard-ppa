@@ -3,9 +3,9 @@ Section: net
 Priority: extra
 Maintainer: Egbert Verhage <egbert@eggiecode.org>
 Build-Depends:
- debhelper (>= 10~),
- dh-exec,
+ debhelper (>= 9~),
  dkms,
+ dh-exec,
  libmnl-dev,
  pkg-config
 Standards-Version: 3.9.8

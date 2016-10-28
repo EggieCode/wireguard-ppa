@@ -1,0 +1,8 @@
+debian/wireguard-dkms.dkms.debhelper
+debian/wireguard-dkms.postinst.debhelper
+debian/wireguard-dkms.prerm.debhelper
+debian/wireguard-dkms.substvars
+debian/wireguard-tools.substvars
+debian/wireguard-dkms/
+debian/wireguard-tools/
+
