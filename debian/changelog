@@ -1,0 +1,6 @@
+wireguard (0.0.20160630-1) experimental; urgency=medium
+
+  * First PPA package.
+
+ -- Egbert Verhage <egbert@eggiecode.org> Fri, 28 Oct 2016 14:04:00 +0200
+
