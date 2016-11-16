@@ -1,0 +1,30 @@
+Description: Hard disable avx2
+ Hard siable AVX2 CPU excetion. Crashes on some VM's. 
+ .
+ wireguard (0.0.20161102-1ubuntu2) UNRELEASED; urgency=medium
+ .
+   * Updated Hard disable avx2
+   * Removed 0001-remove-tests-from-dkms-makefile-for-now patch. No need for
+     it.
+Author: Egbert Verhage <egbert@mgmt.eggieservers.nl>
+
+---
+The information above should follow the Patch Tagging Guidelines, please
+checkout http://dep.debian.net/deps/dep3/ to learn about the format. Here
+are templates for supplementary fields that you might want to add:
+
+Origin: upstream
+Reviewed-By: Egbert Verhage
+Last-Update: 2016-11-02
+
+--- wireguard-0.0.20161102.orig/wireguard-src/src/crypto/chacha20poly1305.c
++++ wireguard-0.0.20161102/wireguard-src/src/crypto/chacha20poly1305.c
+@@ -39,7 +39,7 @@ void chacha20poly1305_init(void)
+ {
+ 	chacha20poly1305_use_sse2 = boot_cpu_has(X86_FEATURE_XMM2);
+ 	chacha20poly1305_use_ssse3 = boot_cpu_has(X86_FEATURE_SSSE3);
+-	chacha20poly1305_use_avx2 = boot_cpu_has(X86_FEATURE_AVX2);
++	chacha20poly1305_use_avx2 = false;
+ }
+ #else
+ void chacha20poly1305_init(void) { }

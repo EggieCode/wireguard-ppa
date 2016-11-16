@@ -1,8 +1,57 @@
-wireguard (0.0.20161025-1ubuntu1) xenial; urgency=medium
+wireguard (0.0.20161110-ubuntu3) xenial; urgency=medium
 
-  * Hard disable the AVX2 extenation in cryto. Crashes on some systems
+  * Removed the hard AVX2 disable.
 
- -- Egbert Verhage <egbert@mgmt.eggieservers.nl>  Fri, 28 Oct 2016 17:05:05 +0200
+ -- Egbert Verhage <egbert@eggiecode.org>  Wed, 16 Nov 2016 11:05:04 +0100
+
+wireguard (0.0.20161110-ubuntu2) xenial; urgency=medium
+
+  * Removed .git from the package 
+
+ -- Egbert Verhage <egbert@eggiecode.org>  Fri, 11 Nov 2016 14:22:22 +0100
+
+wireguard (0.0.20161110-ubuntu1) xenial; urgency=medium
+
+  * Update to experimental-0.0.20161110 from WireGuard git 
+
+ -- Egbert Verhage <egbert@mgmt.eggieservers.nl>  Fri, 11 Nov 2016 14:14:21 +0100
+
+wireguard (0.0.20161105-ubuntu2) xenial; urgency=medium
+
+  * Moved dependencies around
+
+ -- Egbert Verhage <egbert@eggiecode.org>  Mon, 07 Nov 2016 14:15:31 +0100
+
+wireguard (0.0.20161105-ubuntu1) xenial; urgency=medium
+
+  * Update to experimental-0.0.20161105 from WireGuard git 
+
+ -- Egbert Verhage <egbert@eggiecode.org>  Mon, 07 Nov 2016 14:10:13 +0100
+
+wireguard (0.0.20161103-1ubuntu3) xenial; urgency=medium
+
+  * Update to experimental-0.0.20161103 from WireGuard git 
+
+ -- Egbert Verhage <egbert@eggiecode.org>  Fri, 04 Nov 2016 13:00:52 +0100
+
+wireguard (0.0.20161102-1ubuntu2) xenial; urgency=medium
+
+  * Removed 0001-remove-tests-from-dkms-makefile-for-now patch. No need for
+    it.
+
+ -- Egbert Verhage <egbert@eggiecode.org>  Wed, 02 Nov 2016 12:15:36 +0100
+
+wireguard (0.0.20161102-1ubuntu1) xenial; urgency=medium
+
+  * Update to snapshot experimental-0.0.20161102 from WireGuard git
+
+ -- Egbert Verhage <egbert@eggiecode.org>  Wed, 02 Nov 2016 12:03:12 +0100
+
+wireguard (0.0.20161025-1ubuntu2) xenial; urgency=medium
+
+  * Hard disable the AVX2 extenation in crypto. Crashes on some systems.
+
+ -- Egbert Verhage <egbert@eggiecode.org>  Fri, 28 Oct 2016 17:05:05 +0200
 
 wireguard (0.0.20161025-1) xenial; urgency=medium
 

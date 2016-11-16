@@ -4,11 +4,13 @@ Priority: extra
 Maintainer: Egbert Verhage <egbert@eggiecode.org>
 Build-Depends:
  debhelper (>= 9~),
- dkms,
- dh-exec,
  libmnl-dev,
- pkg-config
+ dh-exec,
+ pkg-config,
+ dkms,
+ libmnl0
 Standards-Version: 3.9.8
+XSBC-Original-Maintainer: Daniel Kahn Gillmor <dkg@fifthhorseman.net>
 Homepage: https://www.wireguard.io
 Vcs-Git: https://git.launchpad.net/wireguard
 Vcs-Browser: https://code.launchpad.net/wireguard
@@ -36,7 +38,7 @@ Architecture: linux-any
 Depends:
  ${misc:Depends},
  ${shlibs:Depends}
-Recommends:
+Suggests:
  wireguard-dkms
 Description: fast, modern, secure kernel VPN tunnel (userland utilities)
  WireGuard is a novel VPN that runs inside the Linux Kernel and uses
