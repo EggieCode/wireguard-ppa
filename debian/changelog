@@ -1,3 +1,9 @@
+wireguard (0.0.20161116-ubuntu1) xenial; urgency=medium
+
+  * Update to experimental-0.0.20161116 from WireGuard git
+
+ -- Egbert Verhage <egbert@eggiecode.org>  Wed, 16 Nov 2016 16:57:16 +0100
+
 wireguard (0.0.20161110-ubuntu4) xenial; urgency=medium
 
   * Fix DKMS package. Build fails on machine.
