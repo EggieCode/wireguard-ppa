@@ -1,7 +1,7 @@
 Source: wireguard
 Section: net
 Priority: extra
-Maintainer: Egbert Verhage <egbert@eggiecode.org>
+Maintainer: WireGuard Ubuntu Packaging Team  <egbert@eggiecode.org>, <admin@hda.me>
 Build-Depends:
  debhelper (>= 9~),
  libmnl-dev,
