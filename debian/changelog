@@ -1,3 +1,10 @@
+wireguard (0.0.20161116.1-wg1~xenial) xenial; urgency=low
+
+  * Update snapshot to experimental-0.0.20161116.1
+  * patches removed from package since already in upstream
+
+ -- hda_launchpad (hda_launchpad) <admin@hda.me>  Fri, 18 Nov 2016 10:24:44 +0000
+
 wireguard (0.0.20161116-ubuntu1) xenial; urgency=medium
 
   * Update to experimental-0.0.20161116 from WireGuard git
