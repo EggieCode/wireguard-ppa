@@ -1,3 +1,9 @@
+wireguard (0.0.20161129-wg1~yakkety) yakkety; urgency=medium
+
+  * Update snapshot to experimental-0.0.20161129
+
+ -- Egbert Verhage <egbert@eggiecode.org>  Wed, 30 Nov 2016 00:12:44 +0100
+
 wireguard (0.0.20161116.1-wg1~yakkety) yakkety; urgency=low
 
   * Update snapshot to experimental-0.0.20161116.1
