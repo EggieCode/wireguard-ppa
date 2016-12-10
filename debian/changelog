@@ -1,10 +1,10 @@
-wireguard (0.0.20161129-wg2~xenial) xenial; urgency=medium
+wireguard (0.0.20161209-wg2~xenial) xenial; urgency=medium
 
   * Changed the DKMS config file to WireGuard repo
 
  -- Egbert Verhage <egbert@eggiecode.org>  Sat, 10 Dec 2016 15:23:07 +0100
 
-wireguard (0.0.20161129-wg1~xenial) xenial; urgency=medium
+wireguard (0.0.20161209-wg1~xenial) xenial; urgency=medium
 
   * Systemd unit included in wireguard-tools
   * wg-config and tungate scripts included in wireguard-tools
