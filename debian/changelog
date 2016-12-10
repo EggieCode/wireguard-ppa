@@ -1,3 +1,17 @@
+wireguard (0.0.20161129-wg2~xenial) xenial; urgency=medium
+
+  * Changed the DKMS config file to WireGuard repo
+
+ -- Egbert Verhage <egbert@eggiecode.org>  Sat, 10 Dec 2016 15:23:07 +0100
+
+wireguard (0.0.20161129-wg1~xenial) xenial; urgency=medium
+
+  * Systemd unit included in wireguard-tools
+  * wg-config and tungate scripts included in wireguard-tools
+  * Package update to snapshot 0.0.20161209
+
+ -- hda_launchpad (hda_launchpad) <admin@hda.me>  Sat, 10 Dec 2016 12:06:24 +0000 
+
 wireguard (0.0.20161129-wg1~xenial) xenial; urgency=low
 
   * Update snapshot to experimental-0.0.20161129
