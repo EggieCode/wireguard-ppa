@@ -1,3 +1,9 @@
+wireguard (0.0.20161216-wg2~xenial) xenial; urgency=medium
+
+  * Package update to snapshot 0.0.20161216
+
+ -- Egbert Verhage <egbert@eggiecode.org>  Fri, 16 Dec 2016 21:14:06 +0100
+
 wireguard (0.0.20161209-wg2~xenial) xenial; urgency=medium
 
   * Changed the DKMS config file to WireGuard repo
