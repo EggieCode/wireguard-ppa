@@ -1,3 +1,9 @@
+wireguard (0.0.20161216-wg1~yakkety) yakkety; urgency=medium
+
+  * Package update to snapshot 0.0.20161216
+
+ -- Egbert Verhage <egbert@mgmt.eggieservers.nl>  Fri, 16 Dec 2016 21:22:24 +0100
+
 wireguard (0.0.20161129-wg2~yakkety) yakkety; urgency=medium
 
   * Changed the DKMS config file to WireGuard repo
