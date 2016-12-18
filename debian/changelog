@@ -1,3 +1,9 @@
+wireguard (0.0.20161218-wg1~yakkety) yakkety; urgency=medium
+
+  * Package update to snapshot 0.0.20161218
+
+ -- Egbert Verhage <egbert@mgmt.eggieservers.nl>  Sun, 18 Dec 2016 20:59:28 +0100
+
 wireguard (0.0.20161216-wg1~yakkety) yakkety; urgency=medium
 
   * Package update to snapshot 0.0.20161216
