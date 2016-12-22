@@ -12,4 +12,4 @@ override_dh_auto_build:
 	$(MAKE) -C wireguard-src/src/tools
 
 override_dh_dkms:
-	dh_dkms -V -- wireguard-src/src/dkms.conf
+	dh_dkms -V
