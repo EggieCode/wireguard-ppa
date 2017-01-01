@@ -2,5 +2,4 @@ wireguard-src/src/tools/wg usr/bin
 debian/wireguard.service lib/systemd/system
 debian/wireguard@.service lib/systemd/system
 wireguard-src/contrib/examples/wg-config/wg-config usr/sbin
-wireguard-src/contrib/examples/wg-config/tungate usr/sbin
 wireguard-src/contrib/examples/wg-config/README usr/share/doc/wireguard-tools/wg-config.README
