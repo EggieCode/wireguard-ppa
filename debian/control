@@ -5,7 +5,6 @@ Maintainer: WireGuard Ubuntu Packaging Team  <egbert@eggiecode.org>, <admin@hda.
 Build-Depends:
  debhelper (>= 9~),
  libmnl-dev,
- dh-exec,
  pkg-config,
  dkms
 Standards-Version: 3.9.8
