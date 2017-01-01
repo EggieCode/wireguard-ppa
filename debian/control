@@ -7,8 +7,7 @@ Build-Depends:
  libmnl-dev,
  dh-exec,
  pkg-config,
- dkms,
- libmnl0
+ dkms
 Standards-Version: 3.9.8
 XSBC-Original-Maintainer: Daniel Kahn Gillmor <dkg@fifthhorseman.net>
 Homepage: https://www.wireguard.io
