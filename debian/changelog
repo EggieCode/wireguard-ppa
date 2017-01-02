@@ -1,3 +1,25 @@
+wireguard (0.0.20161230-wg2~yakkety) yakkety; urgency=medium
+
+  * Fix changelog error
+
+ -- Egbert Verhage <egbert@eggiecode.org>  Sun, 01 Jan 2017 17:11:36 +0100
+
+wireguard (0.0.20161230-wg1~yakkety) yakkety; urgency=medium
+
+  * Bump snaphot 0.0.20161230
+  * Update DKMS to wireguard source. Copy from Debian Sid package
+
+ -- Egbert Verhage <egbert@eggiecode.org>  Sun, 01 Jan 2017 16:35:58 +0100
+
+wireguard (0.0.20161223-wg2~yakkety) yakkety; urgency=low
+
+  * Package update to snaphot 0.0.20161223
+  * Systemd unit slight update
+  * TODO and libmnl dependency removed from package, we need only libmnl-dev
+  * wg-config utility with extra compatibility for systemd
+
+ -- hda_launchpad (hda_launchpad) <admin@hda.me>  Sat, 24 Dec 2016 09:27:09 +0000
+
 wireguard (0.0.20161218-wg1~yakkety) yakkety; urgency=medium
 
   * Package update to snapshot 0.0.20161218
