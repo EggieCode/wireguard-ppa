@@ -1,3 +1,9 @@
+wireguard (0.0.20161230-wg2~xenial) xenial; urgency=medium
+
+  * Fixed DKMS build error.
+
+ -- Egbert Verhage <egbert@mgmt.eggieservers.nl>  Mon, 02 Jan 2017 12:55:09 +0100
+
 wireguard (0.0.20161230-wg1~xenial) xenial; urgency=medium
 
   * Bump snaphot 0.0.20161230
