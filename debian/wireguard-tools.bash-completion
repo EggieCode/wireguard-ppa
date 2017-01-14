@@ -1,0 +1,2 @@
+wireguard-src/src/tools/completion/wg.bash-completion wg
+wireguard-src/src/tools/completion/wg-quick.bash-completion wg-quick
