@@ -5,14 +5,7 @@
 
 case $1 in
     configure)
-
-        # For systemd, enable the wireguard base unit, but don't start it
-	    if [ -x /bin/systemctl ]; then
-	      systemctl enable wireguard.service >/dev/null 2>&1 || true
-	    fi
         # Symlinks
-#        ln -s /usr/share/doc/wireguard-tools/examples/server.conf /etc/wireguard/server.conf
-#        ln -s /usr/share/doc/wireguard-tools/examples/client.conf /etc/wireguard/client.conf
         ;;
 
     abort-upgrade|abort-remove|abort-deconfigure)
