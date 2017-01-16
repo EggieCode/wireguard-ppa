@@ -6,7 +6,8 @@ Build-Depends:
  debhelper (>= 9~),
  libmnl-dev,
  pkg-config,
- dkms
+ dkms,
+ bash-completion
 Standards-Version: 3.9.8
 XSBC-Original-Maintainer: Daniel Kahn Gillmor <dkg@fifthhorseman.net>
 Homepage: https://www.wireguard.io
