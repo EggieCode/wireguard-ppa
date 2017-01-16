@@ -1,3 +1,9 @@
+wireguard (0.0.20170115-wg3~xenial) xenial; urgency=medium
+
+  * Fixed build error. Added bash-completion as build depend
+
+ -- Egbert Verhage <egbert@eggiecode.org>  Mon, 16 Jan 2017 13:12:53 +0100
+
 wireguard (0.0.20170115-wg2~xenial) xenial; urgency=medium
 
   * Fixed the building DKMS package
