@@ -1,4 +1,10 @@
-wireguard (0.0.20170115-wg1~yakkety) yakkety; urgency=medium
+wireguard (0.0.20170115-wg2~xenial) xenial; urgency=medium
+
+  * Copy of the DKG repo
+
+ -- Egbert Verhage <egbert@eggiecode.org>  Mon, 16 Jan 2017 14:09:14 +0100
+
+wireguard (0.0.20170115-wg1~xenial) xenial; urgency=medium
 
   * Package update to snaphot 0.0.20170115
   * make package simpler to maintain
@@ -11,7 +17,7 @@ wireguard (0.0.20170105-wg2~xenial) xenial; urgency=high
 
  -- hda_launchpad (hda_launchpad) <admin@hda.me>  Thu, 05 Jan 2017 12:43:15 +0000
 
-wireguard (0.0.20170105-wg1~yakkety) yakkety; urgency=low
+wireguard (0.0.20170105-wg1~xenial) xenial; urgency=low
 
   * Package update to snapshot 0.0.20170105
   * Systemd unit and tools from upstream used
