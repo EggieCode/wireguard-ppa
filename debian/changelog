@@ -1,3 +1,23 @@
+wireguard (0.0.20170105-wg3~xenial) xenial; urgency=medium
+
+  * Update to auto-build dkms 
+
+ -- Egbert Verhage <egbert@eggiecode.org>  Sat, 14 Jan 2017 14:35:51 +0100
+
+wireguard (0.0.20170105-wg2~xenial) xenial; urgency=high
+
+  * Should fix build for i386 target
+
+ -- hda_launchpad (hda_launchpad) <admin@hda.me>  Thu, 05 Jan 2017 12:43:15 +0000
+
+wireguard (0.0.20170105-wg1~xenial) xenial; urgency=low
+
+  * Package update to snapshot 0.0.20170105
+  * Systemd unit and tools from upstream used
+  * Bash-completions and other fancy upstream changes
+
+ -- hda_launchpad (hda_launchpad) <admin@hda.me>  Thu, 05 Jan 2017 08:02:00 +0000
+
 wireguard (0.0.20161230-wg2~xenial) xenial; urgency=medium
 
   * Fixed DKMS build error.
@@ -18,7 +38,7 @@ wireguard (0.0.20161223-wg2~xenial) xenial; urgency=low
   * TODO and libmnl dependency removed from package, we need only libmnl-dev
   * wg-config utility with extra compatibility for systemd
 
- -- hda_launchpad (hda_launchpad) <admin@hda.me>  Sat, 24 Dec 2016 09:27:09+0000
+ -- hda_launchpad (hda_launchpad) <admin@hda.me>  Sat, 24 Dec 2016 09:27:09 +0000
 
 wireguard (0.0.20161218-wg2~xenial) xenial; urgency=medium
 
