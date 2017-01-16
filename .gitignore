@@ -1,3 +1,4 @@
+.pc
 *.debhelper
 *.substvars
 debian/debhelper-build-stamp
