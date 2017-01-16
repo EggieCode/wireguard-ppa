@@ -7,7 +7,7 @@ case $1 in
     configure)
 
         # Symlinks
-        if test ! -f /etc/wireguard/server.conf 
+        if test ! -f /etc/wireguard/server.conf
         then
          ln -s /usr/share/doc/wireguard-tools/examples/server.conf /etc/wireguard/server.conf >/dev/null 2>&1 || true
         fi

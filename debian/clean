@@ -1,3 +1,3 @@
-src/tools/*.o
-src/tools/*.d
-src/tools/wg
+wireguard-src/src/tools/*.o
+wireguard-src/src/tools/*.d
+wireguard-src/src/tools/wg
