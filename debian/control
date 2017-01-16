@@ -16,7 +16,8 @@ Vcs-Browser: https://code.launchpad.net/wireguard
 Package: wireguard-dkms
 Architecture: all
 Depends:
- ${misc:Depends}
+ ${misc:Depends},
+ dkms
 Recommends:
  wireguard-tools
 Description: fast, modern, secure kernel VPN tunnel (DKMS version)

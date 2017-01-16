@@ -10,9 +10,6 @@ fi
 case "$1" in
     upgrade)
         # systemd: start the new version of wireguard
-        if [ -x /bin/systemctl ]; then
-            systemctl restart wireguard.service
-        fi
     ;;
 
     purge)

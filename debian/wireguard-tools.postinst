@@ -6,6 +6,8 @@
 case $1 in
     configure)
         # Symlinks
+	#dpkg-divert --add --package wireguard-tools --rename \
+	#	--divert /usr/bin/wg-quick /usr/bin/wg-quick.bash
         ;;
 
     abort-upgrade|abort-remove|abort-deconfigure)
