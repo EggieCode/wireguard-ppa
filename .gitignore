@@ -1,3 +1,4 @@
+.pc
 *.debhelper
 *.substvars
 debian/debhelper-build-stamp
@@ -5,3 +6,24 @@ debian/files
 debian/wireguard-dkms/
 debian/wireguard-tools/
 
+cscope.out
+*.o
+*.d
+*.ko
+*.mod.c
+src/tools/wg
+Module.symvers
+*.cmd
+.tmp_versions
+*.swp
+modules.order
+modules.builtin
+maint/
+qemu-build/
+src/tests/qemu/distfiles/
+*.id0
+*.id1
+*.id2
+*.nam
+*.til
+*.pro.user
