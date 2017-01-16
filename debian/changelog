@@ -1,3 +1,22 @@
+wireguard (0.0.20170115-wg2~xenial) xenial; urgency=medium
+
+  * Fixed the building DKMS package
+
+ -- Egbert Verhage <egbert@eggiecode.org>  Mon, 16 Jan 2017 12:57:59 +0100
+
+wireguard (0.0.20170115-wg1~xenial) xenial; urgency=medium
+
+  * Package update to snaphot 0.0.20170115
+  * make package simpler to maintain
+
+ -- hda_launchpad (hda_launchpad) <admin@hda.me>  Sun, 15 Jan 2017 21:01:23 +0000
+
+wireguard (0.0.20170105-wg2~xenial) xenial; urgency=high
+
+  * Should fix build for i386 target
+
+ -- hda_launchpad (hda_launchpad) <admin@hda.me>  Thu, 05 Jan 2017 12:43:15 +0000
+
 wireguard (0.0.20170105-wg3~xenial) xenial; urgency=medium
 
   * Update to auto-build dkms 
