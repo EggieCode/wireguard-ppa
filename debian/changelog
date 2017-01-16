@@ -1,14 +1,8 @@
-wireguard (0.0.20170115-wg3~yakkety) yakkety; urgency=medium
+wireguard (0.0.20170115-wg2~yakkety) yakkety; urgency=high
 
-  * Fixed build error. Added bash-completion as build depend
+  * Update to package based on Daniel Kahn Gillmor's work
 
- -- Egbert Verhage <egbert@eggiecode.org>  Mon, 16 Jan 2017 13:12:53 +0100
-
-wireguard (0.0.20170115-wg2~yakkety) yakkety; urgency=medium
-
-  * Fixed the building DKMS package
-
- -- Egbert Verhage <egbert@eggiecode.org>  Mon, 16 Jan 2017 12:57:59 +0100
+ -- hda_launchpad (hda_launchpad) <admin@hda.me>  Mon, 16 Jan 2017 13:39:58 +0000
 
 wireguard (0.0.20170115-wg1~yakkety) yakkety; urgency=medium
 
@@ -16,18 +10,6 @@ wireguard (0.0.20170115-wg1~yakkety) yakkety; urgency=medium
   * make package simpler to maintain
 
  -- hda_launchpad (hda_launchpad) <admin@hda.me>  Sun, 15 Jan 2017 21:01:23 +0000
-
-wireguard (0.0.20170105-wg2~yakkety) yakkety; urgency=high
-
-  * Should fix build for i386 target
-
- -- hda_launchpad (hda_launchpad) <admin@hda.me>  Thu, 05 Jan 2017 12:43:15 +0000
-
-wireguard (0.0.20170105-wg3~yakkety) yakkety; urgency=medium
-
-  * Update to auto-build dkms 
-
- -- Egbert Verhage <egbert@eggiecode.org>  Sat, 14 Jan 2017 14:35:51 +0100
 
 wireguard (0.0.20170105-wg2~yakkety) yakkety; urgency=high
 
@@ -63,7 +45,7 @@ wireguard (0.0.20161223-wg2~yakkety) yakkety; urgency=low
   * TODO and libmnl dependency removed from package, we need only libmnl-dev
   * wg-config utility with extra compatibility for systemd
 
- -- hda_launchpad (hda_launchpad) <admin@hda.me>  Sat, 24 Dec 2016 09:27:09 +0000
+ -- hda_launchpad (hda_launchpad) <admin@hda.me>  Sat, 24 Dec 2016 09:27:09+0000
 
 wireguard (0.0.20161218-wg2~yakkety) yakkety; urgency=medium
 
