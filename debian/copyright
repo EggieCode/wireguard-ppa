@@ -13,16 +13,16 @@ Copyright:
  1995 International Business Machines, Inc.
 License: MIT and IBM
 
-Files: wireguard-src/src/crypto/chacha20-avx2-x86_64.S wireguard-src/src/crypto/chacha20-ssse3-x86_64.S wireguard-src/src/crypto/chacha20poly1305.c wireguard-src/src/crypto/poly1305-avx2-x86_64.S wireguard-src/src/crypto/poly1305-sse2-x86_64.S
+Files: src/crypto/chacha20-avx2-x86_64.S src/crypto/chacha20-ssse3-x86_64.S src/crypto/chacha20poly1305.c src/crypto/poly1305-avx2-x86_64.S src/crypto/poly1305-sse2-x86_64.S
 Copyright: 2015 Martin Willi
 License: GPL-2+
 
-Files: wireguard-src/src/crypto/curve25519.c wireguard-src/src/tools/curve25519.c
+Files: src/crypto/curve25519.c src/tools/curve25519.c
 Copyright: 2008 Google Inc.
 License: BSD-3-clause
 
 Files: debian/*
-Copyright: 2016 Egbert Verhage <egbert@eggiecode.org>, 2016 Daniel Kahn Gillmor <dkg@fifthhorseman.net>
+Copyright: 2016 Daniel Kahn Gillmor <dkg@fifthhorseman.net>
 License: GPL-2
 
 License: GPL-2
