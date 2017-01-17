@@ -1,10 +1,13 @@
-# WireGuard &mdash; fast, modern, secure kernel VPN tunnel
-#### by [Jason A. Donenfeld](mailto:Jason@zx2c4.com) of [Edge Security](https://www.edgesecurity.com/)
+## WireGuard PPA for Ubuntu
 
-WireGuard is a novel VPN that runs inside the Linux Kernel and utilizes **state-of-the-art cryptography**. It aims to be faster, simpler, leaner, and more useful than IPSec, while avoiding the massive headache. It intends to be considerably more performant than OpenVPN. WireGuard is designed as a general purpose VPN for running on embedded interfaces and super computers alike, fit for many different circumstances. It runs over UDP.
+This is a repository for the Ubuntu package of [WireGuard](https://www.wireguard.io/), the fast, modern, and secure VPN.
 
-**More information may be found at [WireGuard.io](https://www.wireguard.io/).**
+### Instructions
 
-## License
+To use, simply run:
 
-This project is released under the [GPLv2](COPYING).
+```
+$ sudo add-apt-repository ppa:wireguard/wireguard
+$ sudo apt-get update
+$ sudo apt-get install wireguard-dkms wireguard-tools
+```
