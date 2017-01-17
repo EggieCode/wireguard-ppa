@@ -2,7 +2,7 @@ wireguard (0.0.20170115-wg3~xenial) xenial; urgency=medium
 
   * Fix dangerous examples inclusion
 
- -- Jason A. Donenfeld <Jason@zx2c4.com>  Tue, 17 Jan 2017 11:20:31 +0200
+ -- Egbert Verhage <egbert@eggiecode.org>  Tue, 17 Jan 2017 11:20:31 +0200
 
 wireguard (0.0.20170115-wg2~xenial) xenial; urgency=high
 
@@ -35,7 +35,7 @@ wireguard (0.0.20161230-wg2~xenial) xenial; urgency=medium
 
   * Fixed DKMS build error.
 
- -- Egbert Verhage <egbert@mgmt.eggieservers.nl>  Mon, 02 Jan 2017 12:55:09 +0100
+ -- Egbert Verhage <egbert@eggiecode.org>  Mon, 02 Jan 2017 12:55:09 +0100
 
 wireguard (0.0.20161230-wg1~xenial) xenial; urgency=medium
 
