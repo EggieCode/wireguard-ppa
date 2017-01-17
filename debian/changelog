@@ -1,4 +1,4 @@
-wireguard (0.0.20170115-wg3~xenial) xenial; urgency=medium
+wireguard (0.0.20170115-wg3~yakkety) yakkety; urgency=medium
 
   * Fix dangerous examples inclusion
 
