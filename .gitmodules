@@ -1,3 +1,3 @@
 [submodule "wireguard-src"]
 	path = wireguard-src
-	url = git://git.zx2c4.com/WireGuard
+	url = https://git.zx2c4.com/WireGuard
