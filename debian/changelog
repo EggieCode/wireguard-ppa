@@ -1,3 +1,9 @@
+wireguard (0.0.20170115-wg3~xenial) xenial; urgency=medium
+
+  * Fix dangerous examples inclusion
+
+ -- Jason A. Donenfeld <Jason@zx2c4.com>  Tue, 17 Jan 2017 11:20:31 +0200
+
 wireguard (0.0.20170115-wg2~yakkety) yakkety; urgency=high
 
   * Update to package based on Daniel Kahn Gillmor's work
@@ -45,7 +51,7 @@ wireguard (0.0.20161223-wg2~yakkety) yakkety; urgency=low
   * TODO and libmnl dependency removed from package, we need only libmnl-dev
   * wg-config utility with extra compatibility for systemd
 
- -- hda_launchpad (hda_launchpad) <admin@hda.me>  Sat, 24 Dec 2016 09:27:09+0000
+ -- hda_launchpad (hda_launchpad) <admin@hda.me>  Sat, 24 Dec 2016 09:27:09 +0000
 
 wireguard (0.0.20161218-wg2~yakkety) yakkety; urgency=medium
 
