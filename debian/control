@@ -35,7 +35,8 @@ Package: wireguard-tools
 Architecture: linux-any
 Depends:
  ${misc:Depends},
- ${shlibs:Depends}
+ ${shlibs:Depends},
+ openresolv
 Recommends:
  wireguard-dkms | wireguard-modules
 Description: fast, modern, secure kernel VPN tunnel (userland utilities)
