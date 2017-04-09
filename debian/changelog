@@ -1,3 +1,33 @@
+wireguard (0.0.20170409-wg1~xenial) xenial; urgency=medium
+
+  * Package update to snapshot 0.0.20170324
+
+ -- Egbert Verhage <egbert@eggiecode.org>  Sun, 09 Apr 2017 16:06:55 +0200
+
+wireguard (0.0.20170324-wg2~xenial) xenial; urgency=medium
+
+  * Switch to openresolv
+
+ -- hda_launchpad (hda_launchpad) <admin@hda.me>  Fri, 07 Apr 2017 10:42:31 +0000
+
+wireguard (0.0.20170324-wg1~xenial) xenial; urgency=medium
+
+  * Package update to snapshot 0.0.20170324
+
+ -- hda_launchpad (hda_launchpad) <admin@hda.me>  Fri, 24 Mar 2017 14:05:18 +0000
+
+wireguard (0.0.20170320.1-wg1~xenial) xenial; urgency=high
+
+  * Same day snapshot critical update to snapshot 0.0.20170320.1
+
+ -- hda_launchpad (hda_launchpad) <admin@hda.me>  Mon, 20 Mar 2017 15:15:27 +0000
+
+wireguard (0.0.20170320-wg1~xenial) xenial; urgency=medium
+
+  * Package update to snapshot 0.0.20170320
+
+ -- hda_launchpad (hda_launchpad) <admin@hda.me>  Mon, 20 Mar 2017 07:26:04 +0000
+
 wireguard (0.0.20170223-wg1~xenial) xenial; urgency=medium
 
   * Package update to snaphot 0.0.20170223
