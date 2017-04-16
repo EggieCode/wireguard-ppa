@@ -1,3 +1,10 @@
+wireguard (0.0.20170409-wg3~xenial) xenial; urgency=medium
+
+  * Fixes i386 and arm packages. Thanks to Jonathon, HDA, Jason for fixing
+    this. https://github.com/EggieCode/wireguard-ppa/issues/13
+
+ -- Egbert Verhage <egbert@eggiecode.org>  Sun, 16 Apr 2017 18:58:58 +0200
+
 wireguard (0.0.20170409-wg1~xenial) xenial; urgency=medium
 
   * Package update to snapshot 0.0.20170324
