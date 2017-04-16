@@ -1,4 +1,4 @@
-wireguard (0.0.20170409-wg3~xenial) xenial; urgency=medium
+wireguard (0.0.20170409-wg2~xenial) xenial; urgency=medium
 
   * Fixes i386 and arm packages. Thanks to Jonathon, HDA, Jason for fixing
     this. https://github.com/EggieCode/wireguard-ppa/issues/13
