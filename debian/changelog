@@ -1,3 +1,9 @@
+wireguard (0.0.20170517-wg1~xenial) xenial; urgency=medium
+
+  * Package update to snapshot 0.0.20170517 
+
+ -- Egbert Verhage <egbert@eggiecode.org>  Wed, 17 May 2017 20:55:26 +0200
+
 wireguard (0.0.20170409-wg2~xenial) xenial; urgency=medium
 
   * Fixes i386 and arm packages. Thanks to Jonathon, HDA, Jason for fixing
