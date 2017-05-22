@@ -1,6 +1,12 @@
+wireguard (0.0.20170517-wg2~zesty) zesty; urgency=medium
+
+  * Removed the openresolv dependency. 
+
+ -- Egbert Verhage <egbert@eggiecode.org>  Mon, 22 May 2017 13:02:23 +0200
+
 wireguard (0.0.20170517-wg1~zesty) zesty; urgency=medium
 
-  * Package update to snapshot 0.0.20170517
+  * Removed the openresolv dependency. 
 
  -- Egbert Verhage <egbert@eggiecode.org>  Wed, 17 May 2017 21:13:18 +0200
 
