@@ -1,3 +1,9 @@
+wireguard (0.0.20170531-wg1~xenial) xenial; urgency=medium
+
+  * Package update to snapshot 0.0.20170531
+
+ -- Egbert Verhage <egbert@eggiecode.org>  Wed, 31 May 2017 21:46:54 +0200
+
 wireguard (0.0.20170517-wg2~xenial) xenial; urgency=medium
 
   * Removed the openreolv dependecy. 
