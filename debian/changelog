@@ -1,3 +1,15 @@
+wireguard (0.0.20170613-wg1~zesty) zesty; urgency=medium
+
+  * Package update to snapshot 0.0.20170613
+
+ -- Egbert Verhage <egbert@eggiecode.org>  Tue, 13 Jun 2017 15:19:10 +0200
+
+wireguard (0.0.20170612-wg1~zesty) zesty; urgency=medium
+
+  * Package update to snapshot 0.0.20170612
+
+ -- hda_launchpad (hda_launchpad) <admin@hda.me>  Mon, 12 Jun 2017 15:50:56 +0000
+
 wireguard (0.0.20170531-wg1~zesty) zesty; urgency=medium
 
   * Package update to snapshot 0.0.20170531
