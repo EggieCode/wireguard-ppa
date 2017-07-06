@@ -1,0 +1,12 @@
+wireguard (0.0.20170706-wg1~trusty) trusty; urgency=medium
+
+  * Package update to snapshot 0.0.20170706
+
+ -- Egbert Verhage <egbert@eggiecode.org>  Thu, 06 Jul 2017 23:17:03 +0200
+
+wireguard (0.0.20170629-wg2~trusty) trusty; urgency=medium
+
+  * Initial package for Ubuntu Trusty (14.04.x)
+  * Snapshot 0.0.20170629
+
+ -- hda_launchpad (hda_launchpad) <admin@hda.me>  Sat, 01 Jul 2017 16:19:45 +0000
