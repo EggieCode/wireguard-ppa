@@ -1,0 +1,258 @@
+wireguard (0.0.20170613-wg1~xenial) xenial; urgency=medium
+
+  * Package update to snapshot 0.0.20170613
+
+ -- Egbert Verhage <egbert@eggiecode.org>  Tue, 13 Jun 2017 14:59:16 +0200
+
+wireguard (0.0.20170612-wg1~xenial) xenial; urgency=medium
+
+  * Package update to snapshot 0.0.20170612
+
+ -- hda_launchpad (hda_launchpad) <admin@hda.me>  Mon, 12 Jun 2017 15:40:10 +0000
+
+wireguard (0.0.20170531-wg1~xenial) xenial; urgency=medium
+
+  * Package update to snapshot 0.0.20170531
+
+ -- Egbert Verhage <egbert@eggiecode.org>  Wed, 31 May 2017 21:46:54 +0200
+
+wireguard (0.0.20170517-wg2~xenial) xenial; urgency=medium
+
+  * Removed the openreolv dependecy. 
+
+ -- Egbert Verhage <egbert@eggiecode.org>  Mon, 22 May 2017 12:41:01 +0200
+
+wireguard (0.0.20170517-wg1~xenial) xenial; urgency=medium
+
+  * Package update to snapshot 0.0.20170517 
+
+ -- Egbert Verhage <egbert@eggiecode.org>  Wed, 17 May 2017 20:55:26 +0200
+
+wireguard (0.0.20170409-wg2~xenial) xenial; urgency=medium
+
+  * Fixes i386 and arm packages. Thanks to Jonathon, HDA, Jason for fixing
+    this. https://github.com/EggieCode/wireguard-ppa/issues/13
+
+ -- Egbert Verhage <egbert@eggiecode.org>  Sun, 16 Apr 2017 18:58:58 +0200
+
+wireguard (0.0.20170409-wg1~xenial) xenial; urgency=medium
+
+  * Package update to snapshot 0.0.20170324
+
+ -- Egbert Verhage <egbert@eggiecode.org>  Sun, 09 Apr 2017 16:06:55 +0200
+
+wireguard (0.0.20170324-wg2~xenial) xenial; urgency=medium
+
+  * Switch to openresolv
+
+ -- hda_launchpad (hda_launchpad) <admin@hda.me>  Fri, 07 Apr 2017 10:42:31 +0000
+
+wireguard (0.0.20170324-wg1~xenial) xenial; urgency=medium
+
+  * Package update to snapshot 0.0.20170324
+
+ -- hda_launchpad (hda_launchpad) <admin@hda.me>  Fri, 24 Mar 2017 14:05:18 +0000
+
+wireguard (0.0.20170320.1-wg1~xenial) xenial; urgency=high
+
+  * Same day snapshot critical update to snapshot 0.0.20170320.1
+
+ -- hda_launchpad (hda_launchpad) <admin@hda.me>  Mon, 20 Mar 2017 15:15:27 +0000
+
+wireguard (0.0.20170320-wg1~xenial) xenial; urgency=medium
+
+  * Package update to snapshot 0.0.20170320
+
+ -- hda_launchpad (hda_launchpad) <admin@hda.me>  Mon, 20 Mar 2017 07:26:04 +0000
+
+wireguard (0.0.20170223-wg1~xenial) xenial; urgency=medium
+
+  * Package update to snaphot 0.0.20170223
+
+ -- Egbert Verhage <egbert@eggiecode.org>  Thu, 23 Feb 2017 19:47:44 +0100
+
+wireguard (0.0.20170214-wg1~xenial) xenial; urgency=medium
+
+  * Package update to snaphot 0.0.20170214
+
+ -- Egbert Verhage <egbert@eggiecode.org>  Tue, 14 Feb 2017 13:38:46 +0100
+
+wireguard (0.0.20170213-wg1~xenial) xenial; urgency=medium
+
+  * Package update to snaphot 0.0.20170213
+
+ -- Egbert Verhage <egbert@eggiecode.org>  Mon, 13 Feb 2017 22:15:10 +0100
+
+wireguard (0.0.20170115-wg3~xenial) xenial; urgency=medium
+
+  * Fix dangerous examples inclusion
+
+ -- Egbert Verhage <egbert@eggiecode.org>  Tue, 17 Jan 2017 11:20:31 +0200
+
+wireguard (0.0.20170115-wg2~xenial) xenial; urgency=high
+
+  * Update to package based on Daniel Kahn Gillmor's work
+
+ -- hda_launchpad (hda_launchpad) <admin@hda.me>  Mon, 16 Jan 2017 13:39:58 +0000
+
+wireguard (0.0.20170115-wg1~xenial) xenial; urgency=medium
+
+  * Package update to snaphot 0.0.20170115
+  * make package simpler to maintain
+
+ -- hda_launchpad (hda_launchpad) <admin@hda.me>  Sun, 15 Jan 2017 21:01:23 +0000
+
+wireguard (0.0.20170105-wg2~xenial) xenial; urgency=high
+
+  * Should fix build for i386 target
+
+ -- hda_launchpad (hda_launchpad) <admin@hda.me>  Thu, 05 Jan 2017 12:43:15 +0000
+
+wireguard (0.0.20170105-wg1~xenial) xenial; urgency=low
+
+  * Package update to snapshot 0.0.20170105
+  * Systemd unit and tools from upstream used
+  * Bash-completions and other fancy upstream changes
+
+ -- hda_launchpad (hda_launchpad) <admin@hda.me>  Thu, 05 Jan 2017 08:02:00 +0000
+
+wireguard (0.0.20161230-wg2~xenial) xenial; urgency=medium
+
+  * Fixed DKMS build error.
+
+ -- Egbert Verhage <egbert@eggiecode.org>  Mon, 02 Jan 2017 12:55:09 +0100
+
+wireguard (0.0.20161230-wg1~xenial) xenial; urgency=medium
+
+  * Bump snaphot 0.0.20161230
+  * Update DKMS to wireguard source. Copy from Debian Sid package
+
+ -- Egbert Verhage <egbert@eggiecode.org>  Sun, 01 Jan 2017 16:35:58 +0100
+
+wireguard (0.0.20161223-wg2~xenial) xenial; urgency=low
+
+  * Package update to snaphot 0.0.20161223
+  * Systemd unit slight update
+  * TODO and libmnl dependency removed from package, we need only libmnl-dev
+  * wg-config utility with extra compatibility for systemd
+
+ -- hda_launchpad (hda_launchpad) <admin@hda.me>  Sat, 24 Dec 2016 09:27:09 +0000
+
+wireguard (0.0.20161218-wg2~xenial) xenial; urgency=medium
+
+  * Fixed bug with DKMS file 
+
+ -- Egbert Verhage <egbert@eggiecode.org>  Thu, 22 Dec 2016 18:32:26 +0100
+
+wireguard (0.0.20161218-wg1~xenial) xenial; urgency=medium
+
+  * Package update to snapshot 0.0.20161218
+
+ -- Egbert Verhage <egbert@eggiecode.org>  Sun, 18 Dec 2016 20:57:27 +0100
+
+wireguard (0.0.20161216-wg2~xenial) xenial; urgency=medium
+
+  * Package update to snapshot 0.0.20161216
+
+ -- Egbert Verhage <egbert@eggiecode.org>  Fri, 16 Dec 2016 21:14:06 +0100
+
+wireguard (0.0.20161209-wg2~xenial) xenial; urgency=medium
+
+  * Changed the DKMS config file to WireGuard repo
+
+ -- Egbert Verhage <egbert@eggiecode.org>  Sat, 10 Dec 2016 15:23:07 +0100
+
+wireguard (0.0.20161209-wg1~xenial) xenial; urgency=medium
+
+  * Systemd unit included in wireguard-tools
+  * wg-config and tungate scripts included in wireguard-tools
+  * Package update to snapshot 0.0.20161209
+
+ -- hda_launchpad (hda_launchpad) <admin@hda.me>  Sat, 10 Dec 2016 12:06:24 +0000 
+
+wireguard (0.0.20161129-wg1~xenial) xenial; urgency=low
+
+  * Update snapshot to experimental-0.0.20161129
+
+ -- Egbert Verhage <egbert@eggiecode.org>  Wed, 30 Nov 2016 00:18:13 +0100
+
+wireguard (0.0.20161116.1-wg1~xenial) xenial; urgency=low
+
+  * Update snapshot to experimental-0.0.20161116.1
+  * patches removed from package since already in upstream
+
+ -- hda_launchpad (hda_launchpad) <admin@hda.me>  Fri, 18 Nov 2016 10:24:44 +0000
+
+wireguard (0.0.20161116-ubuntu1) xenial; urgency=medium
+
+  * Update to experimental-0.0.20161116 from WireGuard git
+
+ -- Egbert Verhage <egbert@eggiecode.org>  Wed, 16 Nov 2016 16:57:16 +0100
+
+wireguard (0.0.20161110-ubuntu4) xenial; urgency=medium
+
+  * Fix DKMS package. Build fails on machine.
+
+ -- Egbert Verhage <egbert@eggiecode.org>  Wed, 16 Nov 2016 13:14:04 +0100
+
+wireguard (0.0.20161110-ubuntu3) xenial; urgency=medium
+
+  * Removed the hard AVX2 disable.
+
+ -- Egbert Verhage <egbert@eggiecode.org>  Wed, 16 Nov 2016 11:05:04 +0100
+
+wireguard (0.0.20161110-ubuntu2) xenial; urgency=medium
+
+  * Removed .git from the package 
+
+ -- Egbert Verhage <egbert@eggiecode.org>  Fri, 11 Nov 2016 14:22:22 +0100
+
+wireguard (0.0.20161110-ubuntu1) xenial; urgency=medium
+
+  * Update to experimental-0.0.20161110 from WireGuard git 
+
+ -- Egbert Verhage <egbert@mgmt.eggieservers.nl>  Fri, 11 Nov 2016 14:14:21 +0100
+
+wireguard (0.0.20161105-ubuntu2) xenial; urgency=medium
+
+  * Moved dependencies around
+
+ -- Egbert Verhage <egbert@eggiecode.org>  Mon, 07 Nov 2016 14:15:31 +0100
+
+wireguard (0.0.20161105-ubuntu1) xenial; urgency=medium
+
+  * Update to experimental-0.0.20161105 from WireGuard git 
+
+ -- Egbert Verhage <egbert@eggiecode.org>  Mon, 07 Nov 2016 14:10:13 +0100
+
+wireguard (0.0.20161103-1ubuntu3) xenial; urgency=medium
+
+  * Update to experimental-0.0.20161103 from WireGuard git 
+
+ -- Egbert Verhage <egbert@eggiecode.org>  Fri, 04 Nov 2016 13:00:52 +0100
+
+wireguard (0.0.20161102-1ubuntu2) xenial; urgency=medium
+
+  * Removed 0001-remove-tests-from-dkms-makefile-for-now patch. No need for
+    it.
+
+ -- Egbert Verhage <egbert@eggiecode.org>  Wed, 02 Nov 2016 12:15:36 +0100
+
+wireguard (0.0.20161102-1ubuntu1) xenial; urgency=medium
+
+  * Update to snapshot experimental-0.0.20161102 from WireGuard git
+
+ -- Egbert Verhage <egbert@eggiecode.org>  Wed, 02 Nov 2016 12:03:12 +0100
+
+wireguard (0.0.20161025-1ubuntu2) xenial; urgency=medium
+
+  * Hard disable the AVX2 extenation in crypto. Crashes on some systems.
+
+ -- Egbert Verhage <egbert@eggiecode.org>  Fri, 28 Oct 2016 17:05:05 +0200
+
+wireguard (0.0.20161025-1) xenial; urgency=medium
+
+  * First PPA package.
+
+ -- Egbert Verhage <egbert@eggiecode.org>  Fri, 28 Oct 2016 14:04:00 +0200
+
