@@ -1,3 +1,21 @@
+wireguard (0.0.20170706-wg1~yakkety) yakkety; urgency=medium
+
+  * Package update to snapshot 0.0.20170706
+
+ -- Egbert Verhage <egbert@eggiecode.org>  Thu, 06 Jul 2017 23:12:19 +0200
+
+wireguard (0.0.20170629-wg2~yakkety) yakkety; urgency=high
+
+  * include workaround Ubuntu 16.10 kernel patch
+
+ -- hda_launchpad (hda_launchpad) <admin@hda.me>  Mon, 03 Jul 2017 21:24:17 +0000
+
+wireguard (0.0.20170629-wg1~yakkety) yakkety; urgency=medium
+
+  * Package update to snapshot 0.0.20170629
+
+ -- hda_launchpad (hda_launchpad) <admin@hda.me>  Sat, 01 Jul 2017 16:15:42 +0000
+
 wireguard (0.0.20170613-wg1~yakkety) yakkety; urgency=medium
 
   * Package update to snapshot 0.0.20170613
