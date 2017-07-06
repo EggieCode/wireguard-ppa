@@ -2,7 +2,7 @@ wireguard (0.0.20170706-wg1~xenial) xenial; urgency=medium
 
   * Package update to snapshot 0.0.20170706
 
- -- Egbert Verhage <egbert@eggiecode.org>  Thu, 06 Jul 2017 22:17:52 +0200
+ -- Egbert Verhage <egbert@eggiecode.org>  Thu, 06 Jul 2017 22:57:43 +0200
 
 wireguard (0.0.20170629-wg2~xenial) xenial; urgency=high
 
