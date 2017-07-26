@@ -1,3 +1,9 @@
+wireguard (0.0.20170726-wg1~zesty) zesty; urgency=medium
+
+  * Package update to snapshot 0.0.20170726
+
+ -- Egbert Verhage <egbert@eggiecode.org>  Wed, 26 Jul 2017 21:04:09 +0200
+
 wireguard (0.0.20170706-wg1~zesty) zesty; urgency=medium
 
   * Package update to snapshot 0.0.20170706
