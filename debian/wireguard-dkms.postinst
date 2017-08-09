@@ -1,0 +1,44 @@
+#!/bin/sh
+set -e
+
+#DEBHELPER#
+
+# Message of running rmmod & modprobe need to run after the module has been build. 
+
+case "$1" in
+	install)
+		;;
+
+	configure)
+		# Check if the wireguard module is loaded else the install will fail.
+		if [ ! -f "/sys/module/wireguard/version" ]; then
+			echo "WARNING: kernel module is not loaded"
+			exit 0
+		fi
+		
+		
+		new="$(modinfo -F version "/lib/modules/$(uname -r)/updates/dkms/wireguard.ko" 2>/dev/null)" # Get the version of the current builded module
+		old=`cat /sys/module/wireguard/version` # Get the version of the current loaded module
+		if ! [ "$old" = "$new" ]; then
+			echo "You appear to have just upgraded WireGuard from version v$old to v$new."
+			echo "However, the old version is still running on your system. In order to use the"
+			echo "new version, you will need to remove the old module and load the new one. As"
+			echo "root, you can accomplish this with the following commands:"
+			echo
+			echo "    # rmmod wireguard"
+			echo "    # modprobe wireguard"
+			echo
+			echo "Do note that doing this will remove current WireGuard interfaces, so you may want"
+			echo "to gracefully remove them yourself prior."
+		fi 
+		;;
+	abort-upgrade)
+		;;
+	*)
+		exit 0
+		;;
+esac
+
+
+exit 0
+
