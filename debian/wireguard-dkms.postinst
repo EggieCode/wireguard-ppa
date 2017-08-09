@@ -25,8 +25,8 @@ case "$1" in
 			echo "new version, you will need to remove the old module and load the new one. As"
 			echo "root, you can accomplish this with the following commands:"
 			echo
-			echo "    # rmmod wireguard"
-			echo "    # modprobe wireguard"
+			echo "    # sudo rmmod wireguard"
+			echo "    # sudo modprobe wireguard"
 			echo
 			echo "Do note that doing this will remove current WireGuard interfaces, so you may want"
 			echo "to gracefully remove them yourself prior."
