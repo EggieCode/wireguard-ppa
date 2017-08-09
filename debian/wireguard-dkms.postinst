@@ -22,8 +22,8 @@ case "$1" in
 		if ! [ "$old" = "$new" ]; then
 			echo "You appear to have just upgraded WireGuard from version v$old to v$new."
 			echo "However, the old version is still running on your system. In order to use the"
-			echo "new version, you will need to remove the old module and load the new one. As"
-			echo "root, you can accomplish this with the following commands:"
+			echo "new version, you will need to remove the old module and load the new one."
+			echo "You can accomplish this with the following commands:"
 			echo
 			echo "    # sudo rmmod wireguard"
 			echo "    # sudo modprobe wireguard"
