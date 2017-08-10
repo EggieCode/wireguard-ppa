@@ -1,3 +1,11 @@
+wireguard (0.0.20170810-wg1~trusty) trusty; urgency=medium
+
+  * Package update to snapshot 0.0.20170810
+  * 0.0.20170810-wg1~trusty Added message to enable the new wireguard
+    version
+
+ -- Egbert Verhage <egbert@eggiecode.org>  Thu, 10 Aug 2017 19:09:56 +0200
+
 wireguard (0.0.20170726-wg1~trusty) trusty; urgency=medium
 
   * Package update to snapshot 0.0.20170726
