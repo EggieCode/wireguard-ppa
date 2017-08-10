@@ -1,3 +1,11 @@
+wireguard (0.0.20170810-wg1~zesty) zesty; urgency=medium
+
+  * Package update to snapshot 0.0.20170810
+  * 0.0.20170810-wg1~zesty Added message to enable the new wireguard
+    version
+
+ -- Egbert Verhage <egbert@eggiecode.org>  Thu, 10 Aug 2017 19:15:31 +0200
+
 wireguard (0.0.20170726-wg1~zesty) zesty; urgency=medium
 
   * Package update to snapshot 0.0.20170726
