@@ -1,8 +1,9 @@
 wireguard (0.0.20170810-wg1~xenial) xenial; urgency=medium
 
-  * Package update to snapshot 0.0.20170810
+  * Package update to snapshot 0.0.20170810\nAdded message to enable the
+    new wireguard version
 
- -- Egbert Verhage <egbert@eggiecode.org>  Thu, 10 Aug 2017 18:54:59 +0200
+ -- Egbert Verhage <egbert@eggiecode.org>  Thu, 10 Aug 2017 18:59:57 +0200
 
 wireguard (0.0.20170726-wg1~xenial) xenial; urgency=medium
 
