@@ -12,7 +12,6 @@ case "$1" in
 	configure)
 		# Check if the wireguard module is loaded else the install will fail.
 		if [ ! -f "/sys/module/wireguard/version" ]; then
-			echo "WARNING: kernel module is not loaded"
 			exit 0
 		fi
 		
