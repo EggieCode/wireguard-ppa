@@ -1,3 +1,9 @@
+wireguard (0.0.20170907-wg2~trusty) trusty; urgency=medium
+
+  * Fix: dkms postinstall on Linux Mint
+
+ -- Egbert Verhage <egbert@eggiecode.org>  Thu, 14 Sep 2017 20:50:23 +0200
+
 wireguard (0.0.20170907-wg1~trusty) trusty; urgency=medium
 
   * Package update to snapshot 0.0.20170907
