@@ -14,6 +14,9 @@ case "$1" in
 		if [ ! -f "/sys/module/wireguard/version" ]; then
 			exit 0
 		fi
+		if [ ! -f "/lib/modules/$(uname -r)/updates/dkms/wireguard.ko" ]; then
+			exit 0
+		fi
 		
 		
 		new="$(modinfo -F version "/lib/modules/$(uname -r)/updates/dkms/wireguard.ko" 2>/dev/null)" # Get the version of the current builded module
