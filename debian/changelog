@@ -1,3 +1,9 @@
+wireguard (0.0.20170918-wg1~artful) artful; urgency=medium
+
+  * Package update to snapshot 0.0.20170918
+
+ -- Egbert Verhage <egbert@eggiecode.org>  Tue, 19 Sep 2017 20:24:18 +0200
+
 wireguard (0.0.20170907-wg1~artful) artful; urgency=medium
 
   * Initial package for Ubuntu 17.10 (Artful Aardvark)
