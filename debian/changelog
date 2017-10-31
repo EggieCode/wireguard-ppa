@@ -1,3 +1,9 @@
+wireguard (0.0.20171031-wg1~trusty) trusty; urgency=medium
+
+  * Package update to snapshot 0.0.20171031
+
+ -- Egbert Verhage <egbert@eggiecode.org>  Tue, 31 Oct 2017 21:46:22 +0100
+
 wireguard (0.0.20171017-wg1~trusty) trusty; urgency=medium
 
   * Package update to snapshot 0.0.20171017
