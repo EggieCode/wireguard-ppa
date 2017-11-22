@@ -1,3 +1,15 @@
+wireguard (0.0.20171122-wg1~artful) artful; urgency=medium
+
+  * Package update to snapshot 0.0.20171122
+
+ -- Egbert Verhage <egbert@eggiecode.org>  Wed, 22 Nov 2017 20:21:13 +0100
+
+wireguard (0.0.20171111-wg1~artful) artful; urgency=medium
+
+  * Package update to snapshot 0.0.20171111
+
+ -- hda_launchpad (hda_launchpad) <admin@hda.me>  Sat, 11 Nov 2017 08:08:46 +0000
+
 wireguard (0.0.20171101-wg1~artful) artful; urgency=medium
 
   * Package update to snapshot 0.0.20171101
