@@ -1,3 +1,15 @@
+wireguard (0.0.20171122-wg1~xenial) xenial; urgency=medium
+
+  * Package update to snapshot 0.0.20171122
+
+ -- Egbert Verhage <egbert@eggiecode.org>  Wed, 22 Nov 2017 19:59:06 +0100
+
+wireguard (0.0.20171111-wg1~xenial) xenial; urgency=medium
+
+  * Package update to snapshot 0.0.20171111
+
+ -- hda_launchpad (hda_launchpad) <admin@hda.me>  Sat, 11 Nov 2017 08:13:07 +0000
+
 wireguard (0.0.20171101-wg1~xenial) xenial; urgency=medium
 
   * Package update to snapshot 0.0.20171101
