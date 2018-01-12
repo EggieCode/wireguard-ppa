@@ -1,6 +1,6 @@
 ## WireGuard PPA for Ubuntu
 
-This is a repository for the Ubuntu package of [WireGuard](https://www.wireguard.io/), the fast, modern, and secure VPN.
+This is a repository for the Ubuntu package of [WireGuard](https://www.wireguard.com/), the fast, modern, and secure VPN.
 
 ### Instructions
 
