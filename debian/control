@@ -16,9 +16,8 @@ Vcs-Browser: https://github.com/EggieCode/wireguard-ppa
 Package: wireguard
 Architecture: all
 Depends:
- wireguard-dkms (= ${source:Version}) | wireguard-modules,
- wireguard-tools (<< ${source:Version}.1~),
- wireguard-tools (>= ${source:Version}),
+ wireguard-dkms,
+ wireguard-tools,
  ${misc:Depends},
 Description: fast, modern, secure kernel VPN tunnel (metapackage)
  WireGuard is a novel VPN that runs inside the Linux Kernel and uses
