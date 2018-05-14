@@ -1,3 +1,9 @@
+wireguard (0.0.20180513-wg1~artful) artful; urgency=medium
+
+  * Package update to snapshot 0.0.20180513
+
+ -- Egbert Verhage <egbert@eggiecode.org>  Mon, 14 May 2018 12:02:48 +0200
+
 wireguard (0.0.20180420-wg1~artful) artful; urgency=medium
 
   * Package update to snapshot 0.0.20180420
