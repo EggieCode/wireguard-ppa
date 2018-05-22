@@ -1,3 +1,9 @@
+wireguard (0.0.20180519-wg2~trusty) trusty; urgency=medium
+
+  * Added kernel module reload script
+
+ -- Egbert Verhage <egbert@eggiecode.org>  Tue, 22 May 2018 23:14:50 +0200
+
 wireguard (0.0.20180519-wg1~trusty) trusty; urgency=medium
 
   * Package update to snapshot 0.0.20180519
