@@ -1,3 +1,9 @@
+wireguard (0.0.20180519-wg2~artful) artful; urgency=medium
+
+  * Added kernel module reload script
+
+ -- Egbert Verhage <egbert@eggiecode.org>  Tue, 22 May 2018 23:14:15 +0200
+
 wireguard (0.0.20180519-wg1~artful) artful; urgency=medium
 
   * Package update to snapshot 0.0.20180519
