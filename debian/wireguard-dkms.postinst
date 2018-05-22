@@ -19,8 +19,8 @@ case "$1" in
 		fi
 		
 		
-		new="$(modinfo -F version "/lib/modules/$(uname -r)/updates/dkms/wireguard.ko" 2>/dev/null)" # Get the version of the current builded module
-		old=`cat /sys/module/wireguard/version` # Get the version of the current loaded module
+		new="$(modinfo -F version "/lib/modules/$(uname -r)/updates/dkms/wireguard.ko" 2>/dev/null)" # Get the version of the current built module
+		old="$(cat /sys/module/wireguard/version)" # Get the version of the current loaded module
 		if ! [ "$old" = "$new" ]; then
 			echo "You appear to have just upgraded WireGuard from version v$old to v$new."
 			echo "However, the old version is still running on your system. In order to use the"
@@ -32,6 +32,43 @@ case "$1" in
 			echo
 			echo "Do note that doing this will remove current WireGuard interfaces, so you may want"
 			echo "to gracefully remove them yourself prior."
+			echo
+			if [ -f /etc/wireguard/.reload-module-on-update ]; then
+				units="$(systemctl list-units --state=active --plain --no-legend 'wg-quick@*.service' 2>/dev/null|cut -d ' ' -f 1)"
+				if [ -n "$units" ]; then
+					for unit in $units; do
+						echo "Stopping $unit..."
+						systemctl stop "$unit"
+					done
+					echo "Sleeping 3 seconds..."
+					sleep 3
+					if [ -n "$(wg show interfaces)" ]; then
+						echo "Warning: interfaces exist after stopping systemd units, not reloading module"
+					else
+						echo "Reloading module..."
+						rmmod wireguard
+						modprobe wireguard
+					fi
+					systemctl daemon-reload
+					for unit in $units; do
+						echo "Starting $unit..."
+						systemctl start "$unit"
+					done
+				else
+					echo "No wg-quick@.service units were found to restart."
+					if [ -n "$(wg show interfaces)" ]; then
+						echo "Warning: interfaces exist, not reloading module"
+					else
+						echo "Reloading module..."
+						rmmod wireguard
+						modprobe wireguard
+					fi
+					systemctl daemon-reload
+				fi
+			else
+				echo "In order to have all wg-quick@.service units restarted and the new module inserted"
+				echo "when a new version is installed, run \`touch /etc/wireguard/.reload-module-on-update'."
+			fi
 		fi 
 		;;
 	abort-upgrade)
