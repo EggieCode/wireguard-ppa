@@ -1,3 +1,9 @@
+wireguard (0.0.20180531-wg1~bionic) bionic; urgency=medium
+
+  * Package update to snapshot 0.0.20180531
+
+ -- Egbert Verhage <egbert@eggiecode.org>  Tue, 05 Jun 2018 17:37:37 +0200
+
 wireguard (0.0.20180524-wg1~bionic) bionic; urgency=medium
 
   * Package update to snapshot 0.0.20180524
