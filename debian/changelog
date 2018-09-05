@@ -1,3 +1,9 @@
+wireguard (0.0.20180904-wg1~cosmic) cosmic; urgency=medium
+
+  * Package update to snapshot 0.0.20180904
+
+ -- Egbert Verhage <egbert@eggiecode.org>  Wed, 05 Sep 2018 13:41:04 +0200
+
 wireguard (0.0.20180809-wg1~cosmic) cosmic; urgency=medium
 
   * Package update to snapshot 0.0.20180809
