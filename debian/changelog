@@ -1,3 +1,9 @@
+wireguard (0.0.20180925-wg1~xenial) xenial; urgency=medium
+
+  * Package update to snapshot 0.0.20180925
+
+ -- Egbert Verhage <egbert@eggiecode.org>  Thu, 27 Sep 2018 21:11:30 +0200
+
 wireguard (0.0.20180918-wg1~xenial) xenial; urgency=medium
 
   * Package update to snapshot 0.0.20180918
